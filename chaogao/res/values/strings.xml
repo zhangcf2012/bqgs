@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="app_name">表情怪兽</string>
+	<string name="load_more">加载中...</string>
+    <string name="load_error">加载失败,点击重试</string>
+    
+    <!-- xlistview -->
+    <string name="xlistview_header_hint_normal">下拉可以刷新&#8230;</string>
+    <string name="xlistview_header_hint_ready">松开可以刷新&#8230;</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">上拉加载更多</string>
+    <string name="xlistview_footer_hint_ready">松开查看更多</string>
+    <string name="xlistview_footer_hint_no_more_comment">没有更多评论了,你也评论点吧!</string>
+    <string name="xlistview_footer_hint_no_more_author_comment">没有更多楼主回复了</string>
+    
+    
+    <string-array name="tab_check_names">
+        <item>推荐表情</item>
+    </string-array>
+    <string-array name="tab_names">
+        <item>推荐表情</item>
+        <item>悠嘻猴</item>
+        <item>小纯洁</item>
+        <item>鱼兔妹</item>
+    </string-array>
+    
+    <!-- 通用 -->
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="system_tip">系统提示</string>
+    <string name="title_bar_back_string">"返回 "</string>
+    <string name="net_msg_error">当前网络不可用，请检查网络设置</string>
+    <string name="operate_succ">操作成功</string>
+    <string name="operate_fail">操作失败</string>
+    <string name="deleting">正在删除</string>
+    <string name="prompt_msg">提示信息</string>
+    <string name="confirm_delete">确定要删除吗？</string>
+    <string name="no_net">没有网络</string>
+    <string name="loading">数据加载中...</string>
+    <string name="close">关闭</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="qq">QQ</string>
+    <string name="qzone">QQ空间</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="account_logout">退出登录</string>
+    <string name="edit_name_hint">输入昵称</string>
+    <string name="edit_hint">昵称只允许4-24个字符.仅支持中文、英文、数字、下划线.请不要使用不雅文字或联系方式作为昵称,一旦发现封锁账号.</string>
+    <string name="binding_text">立即绑定</string>
+    <string name="unbinding_text">取消绑定</string>
+    <string name="why_oauth">为什么授权</string>
+    <string name="sd_title">提示</string>
+    <string name="sd_message">您的SD卡未挂载好</string>
+    <string name="wx_friend_title">"分享一条有趣的内容"</string>
+    <string name="share_txt">分享给好友</string>
+    <string name="wxfriend">微信朋友</string>
+    <string name="wxgroup">微信好友圈</string>
+    <string name="sms">短信</string>
+    <string name="wx_group_content">"分享自#口述#%1$s"</string>
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string name="network_timeout">网络超时，检查网络</string>
+    
+    
+    <!-- 更多 -->
+    <string name="title_bar_text_more">更多</string>
+    <string name="more_copyright">版权声明</string>
+    <string name="more_local_collect">本地收藏</string>
+    <string name="more_feed_back">意见反馈</string>
+    <string name="more_share_app">分享APP</string>
+    <string name="more_about_us">关于我们</string>
+    <string name="more_five_start_praise">五星好评</string>
+    <string name="more_comment_msg_title">通知</string>
+    <string name="more_comment_msg_content">恳请给个5星好评，给你更多好玩的表情哦~</string>
+    <string name="more_comment_msg_confirm">马上去评分</string>
+    <string name="more_comment_msg_cancel">残忍拒绝</string>
+    
+    <!-- 分享界面 -->
+    <string name="platform_wx">微信</string>
+    <string name="platform_wx_friend">微信好友</string>
+    <string name="platform_wx_friendster">微信朋友圈</string>
+    <string name="platfrom_qq">发到QQ</string>
+    <string name="platfrom_qq_share">QQ好友</string>
+    <string name="platform_sms">短信</string>
+    
+    
+    
+    
+    <string-array name="welcome">
+        <item>亲爱的主人，想死我了,么么哒</item>
+        <item>主人，人家好无聊呀,来陪我耍吧</item>
+        <item>主人，您又来找人家耍了呀，不能耍太久哦!</item>
+        <item>主人，自从使用了高考助手，成绩是不是提高了呢？</item>
+        <item>主人，你是不是学习累了，您可以输入，来个笑话，我可以为您讲笑话哦</item>
+        <item>主人，今天，我好累，不想和你聊天</item>
+         <item>主人您复习的怎么样了</item>
+        <item></item>
+    </string-array>
+</resources>

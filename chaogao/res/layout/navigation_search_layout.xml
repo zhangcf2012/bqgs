@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/titlebar_height"
+    android:background="@drawable/top_search_border" >
+
+    <TextView
+        android:id="@+id/tv_search_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:drawableLeft="@drawable/top_search"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:textColor="#3000"
+        android:text="TextView" />
+	
+</FrameLayout>

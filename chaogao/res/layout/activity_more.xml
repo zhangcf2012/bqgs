@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/more_favorite_rl"
+        style="@style/more_fragment_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/favorite_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:src="@drawable/more_favorite" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_arrow" />
+
+        <TextView
+            style="@style/more_fragment_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/favorite_iv"
+            android:text="@string/more_copyright" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_light" />
+
+    <RelativeLayout
+        android:id="@+id/more_feed_back_rl"
+        style="@style/more_fragment_layout_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/feed_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_free_back" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_arrow" />
+
+        <TextView
+            style="@style/more_fragment_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/feed_back_iv"
+            android:text="@string/more_feed_back" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_light" />
+
+    <RelativeLayout
+        android:id="@+id/more_share_rl"
+        style="@style/more_fragment_layout_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/share_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:src="@drawable/more_share" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_arrow" />
+
+        <TextView
+            style="@style/more_fragment_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/share_iv"
+            android:text="@string/more_share_app" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_light" />
+
+    <RelativeLayout
+        android:id="@+id/more_about_us_rl"
+        style="@style/more_fragment_layout_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/about_us_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_about_us" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_arrow" />
+
+        <TextView
+            style="@style/more_fragment_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/about_us_iv"
+            android:text="@string/more_about_us" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_light" />
+
+    <RelativeLayout
+        android:id="@+id/more_pingjia_rl"
+        style="@style/more_fragment_layout_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/pingjia_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_pingjia" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_arrow" />
+
+        <TextView
+            style="@style/more_fragment_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/pingjia_iv"
+            android:text="@string/more_five_start_praise" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_light" />
+	<RelativeLayout
+        android:id="@+id/more_ad_inters_rl"
+        style="@style/more_fragment_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/ad_inters_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:src="@drawable/more_favorite" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_arrow" />
+
+        <TextView
+            style="@style/more_fragment_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ad_inters_iv"
+            android:text="广告赞助" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_light" />
+    <RelativeLayout
+        android:id="@+id/more_ad_wall_rl"
+        style="@style/more_fragment_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/ad_wall_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:src="@drawable/more_favorite" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/more_arrow" />
+
+        <TextView
+            style="@style/more_fragment_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ad_wall_iv"
+            android:text="应用墙" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_light" />
+</LinearLayout>

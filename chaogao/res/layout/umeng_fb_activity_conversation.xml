@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e292e"
+    android:orientation="vertical"
+    tools:context=".FeedbackActivity" >
+
+    <RelativeLayout
+        android:id="@+id/umeng_fb_conversation_list_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/umeng_fb_conversation_bg" >
+
+        <ListView
+            android:id="@+id/umeng_fb_reply_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/umeng_fb_reply_content_wrapper"
+            android:layout_alignParentTop="true"
+            android:background="#f2f2f2"
+            android:cacheColorHint="@android:color/transparent"
+            android:choiceMode="none"
+            android:divider="@null"
+            android:headerDividersEnabled="false"
+            android:listSelector="@android:color/transparent"
+            android:transcriptMode="alwaysScroll" >
+        </ListView>
+
+        <RelativeLayout
+            android:id="@+id/umeng_fb_reply_content_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#cdcdcd"
+            android:padding="5dp" >
+
+            <EditText
+                android:id="@+id/umeng_fb_contact_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/umeng_fb_edittext_bg"
+                android:hint="@string/umeng_fb_contact_info_hint"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textColorHint="#cac4c7"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/umeng_fb_contact_info"
+                android:layout_marginTop="6dp"
+                android:background="#cdcdcd" >
+
+                <Button
+                    android:id="@+id/umeng_fb_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_alignBottom="@+id/umeng_fb_reply_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/umeng_fb_btn_bg_selector" />
+
+                <EditText
+                    android:id="@+id/umeng_fb_reply_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14dp"
+                    android:layout_toLeftOf="@id/umeng_fb_send"
+                    android:background="@drawable/umeng_fb_edittext_bg"
+                    android:cursorVisible="true"
+                    android:hint="@string/umeng_fb_reply_content_hint"
+                    android:maxLines="4"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#000"
+                    android:textColorHint="#cac4c7"
+                    android:textCursorDrawable="@null"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/item_bg" >
+
+    <com.androidex.widget.asyncimage.AsyncImageView
+        android:id="@+id/gif_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+         />
+	<View 
+	    android:layout_below="@id/gif_iv"
+	    android:id="@+id/line_v"
+	     android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1000"
+	    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/line_v"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/look_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="查看" />
+
+        <TextView
+            android:id="@+id/share_tv"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="分享" />
+    </LinearLayout>
+
+
+</RelativeLayout>

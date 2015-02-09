@@ -1,0 +1,146 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wyxz.chaogao"
+    android:versionCode="2"
+    android:versionName="1.1" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <!-- 读写文件的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 友盟错误汇报 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:name="com.wyxz.chaogao.app.BaseApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity android:name="com.wyxz.chaogao.ui.activity.SplashActivity"
+            android:theme="@style/SplashScreenActivityTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wyxz.chaogao.ui.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.wyxz.chaogao.ui.activity.ShowGifActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.wyxz.chaogao.ui.activity.AutoChatActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.wyxz.chaogao.ui.activity.MoreActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.wyxz.chaogao.ui.activity.AboutActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.wyxz.chaogao.ui.activity.CopyRightActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.wyxz.chaogao.ui.activity.FeedbackActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.wyxz.chaogao.ui.activity.ShareAppActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.libs.share.ShareActivity"
+            android:theme="@style/ShareActivityTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.wyxz.chaogao.wxapi.WXEntryActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 腾讯QQ配置相关 begin -->
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTop"
+            android:noHistory="true"
+            android:theme="@style/AppBaseTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent101106525" />
+                <!-- 101106525 -->
+            </intent-filter>
+        </activity>
+        <!-- 腾讯QQ配置相关 end -->
+        
+        
+        
+        <!-- ============================umeng开始=========================== -->
+        <activity android:name="com.umeng.fb.ConversationActivity" />
+        <activity android:name="com.umeng.fb.ContactActivity" />
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <!--
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:exported="true"
+            android:process=":DownloadingService" >
+        </service>
+        -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54aa01eafd98c58cc0000d01" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="yingyongbao" />
+        <!-- ============================umeng结束=========================== -->
+        <!-- 推荐安装XXXX -->
+        <meta-data
+            android:name="MARKET"
+            android:value="yingyongbao" />
+        <meta-data
+            android:name="KEY2DOWNLOAD_SHOW"
+            android:value="false" />
+        <meta-data
+            android:name="KEY2DOWNLOAD_URL"
+            android:value="SPRITE_KEY2DOWNLOAD_URL" />
+        <meta-data
+            android:name="CHANNEL_TITLE"
+            android:value="SPRITE_RECOMMEND_MARKET" />
+        
+        
+        <service
+            android:name="com.qq.e.comm.DownloadService"
+            android:exported="false" >
+        </service>
+        <activity
+            android:name="com.qq.e.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+    </application>
+
+</manifest>

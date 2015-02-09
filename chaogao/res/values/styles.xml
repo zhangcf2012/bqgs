@@ -1,0 +1,123 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	<style name="ProgressBarSmall">
+        <item name="android:indeterminateDrawable">@drawable/progress_small</item>
+        <item name="android:minWidth">20dip</item>
+        <item name="android:maxWidth">20dip</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+    </style>
+    
+	 <style name="ProgressBarBig">
+        <item name="android:indeterminateDrawable">@drawable/progress_big</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+    </style>
+    
+	 <style name="Widget.GifMoviewView" parent="@android:style/Widget"></style>
+    <!-- 正在加载中dialog 样式 -->
+     <style name="dialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 除去title -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 除去背景色 -->
+    </style>
+    
+    <style name="ShareActivityTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+     
+    
+     <!-- 更多页面 -->
+    <style name="more_fragment_layout_style">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="more_fragment_text_style">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    
+    <!-- 关于我们界面 -->
+    <!-- 关于我们界面字体样式 -->
+    <style name="about_us_text_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#a1a1a1</item>
+    </style>
+    
+    <style name="SplashScreenActivityTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <style name="home_title_hx">
+  
+   <item name="android:layout_marginLeft">5dp</item>
+   <item name="android:layout_marginRight">5dp</item>
+   <item name="android:background">#0cc4e5</item>
+    <item name="android:gravity">center</item>
+</style>
+
+
+<style name="chat_text_date_style">
+	    <item name="android:padding">2dp</item>    
+		<item name="android:textColor">#ffffff</item>   
+		<item name="android:textSize">12sp</item>      
+		<item name="android:background">#bfbfbf</item> 
+	</style>
+  
+	     
+	<style name="chat_content_date_style">
+	    <item name="android:minHeight">50dp</item>
+	    <item name="android:gravity">left|center</item>    
+		<item name="android:textColor">#000000</item>   
+		<item name="android:textSize">15sp</item>      
+		<item name="android:lineSpacingExtra">2dp</item>   
+		<item name="android:clickable">true</item>   
+		<item name="android:focusable">true</item>   
+		<item name="android:background">#bfbfbf</item> 
+	</style>	 
+	
+	<style name="chat_text_name_style">  
+		<item name="android:textColor">#818181</item>   
+		<item name="android:textSize">15sp</item>      
+		<item name="android:gravity">center</item> 
+	</style>
+</resources>

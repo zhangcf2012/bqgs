@@ -1,0 +1,90 @@
+# view res/layout/activity_main.xml #generated:19
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/activity_show_gif.xml #generated:7
+# view res/layout/item_gridview_asyncimage_gif.xml #generated:10
+# view res/layout/item_list.xml #generated:10
+-keep class com.androidex.widget.asyncimage.AsyncImageView { <init>(...); }
+
+# view res/layout/activity_share.xml #generated:33
+-keep class com.libs.share.LayoutEx { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.libs.share.ShareActivity { <init>(...); }
+
+# view res/layout/item_gridview_gif.xml #generated:10
+# view res/layout/item_listview.xml #generated:33
+-keep class com.libs.widget.GifMovieView { <init>(...); }
+
+# view res/layout/navigation_bar.xml #generated:2
+-keep class com.libs.widget.NavigationBar { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:13
+-keep class com.libs.widget.PagerTab { <init>(...); }
+
+# view res/layout/fragment_listview.xml #generated:8
+-keep class com.libs.xlistview.XListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.qq.e.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.qq.e.comm.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.tencent.connect.common.AssistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.umeng.fb.ContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.umeng.fb.ConversationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.umeng.update.UpdateDialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.umeng.update.net.DownloadingService { <init>(...); }
+
+# view res/layout/fragment_waterfall_list.xml #generated:12
+-keep class com.waterfall.MultiXListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.wyxz.chaogao.app.BaseApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.wyxz.chaogao.ui.activity.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.wyxz.chaogao.ui.activity.AutoChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.wyxz.chaogao.ui.activity.CopyRightActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.wyxz.chaogao.ui.activity.FeedbackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.wyxz.chaogao.ui.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.wyxz.chaogao.ui.activity.MoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.wyxz.chaogao.ui.activity.ShareAppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.wyxz.chaogao.ui.activity.ShowGifActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.wyxz.chaogao.ui.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.wyxz.chaogao.wxapi.WXEntryActivity { <init>(...); }
+

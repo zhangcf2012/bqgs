@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:visibility="gone"
+        android:background="#0cc4e5" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="机器人"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/rl_bottom"
+            android:layout_marginBottom="5dp"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:listSelector="@null"
+            
+            android:transcriptMode="alwaysScroll" >
+        </ListView>
+
+        <RelativeLayout
+            android:background="@color/cornflowerblue"
+            android:id="@+id/rl_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true" >
+
+            <Button
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:background="@color/home_title_bg"
+                android:id="@+id/btn_send"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:text="发 送" />
+
+            <EditText
+                android:background="@drawable/edittext1"
+                android:id="@+id/et_sendmessage"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/btn_send"
+                android:textCursorDrawable="@null"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

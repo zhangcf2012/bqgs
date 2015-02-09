@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.libs.widget.NavigationBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/cornflowerblue"
+     >
+
+    <!-- left button container -->
+
+    <FrameLayout
+        android:id="@+id/fl_navi_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:minHeight="30dp"
+        android:minWidth="50dip"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp" >
+    </FrameLayout>
+
+    <!-- middle view container -->
+
+    <FrameLayout
+        android:layout_toRightOf="@id/fl_navi_left"
+        android:layout_toLeftOf="@+id/fl_navi_right"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:id="@+id/fl_navi_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+         >
+    </FrameLayout>
+
+    <!-- right button container -->
+
+    <FrameLayout
+        android:id="@+id/fl_navi_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:minHeight="30dp"
+        android:minWidth="50dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp" >
+    </FrameLayout>
+
+</com.libs.widget.NavigationBar>
